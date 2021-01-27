@@ -163,10 +163,10 @@ const Dashboard = ({ history }) => {
     <>
       <Header
         logoAltText="SSSTUTTER ADMIN"
-        logo={`${process.env.PUBLIC_URL}/static/images/logo.svg`}
+        logo={`${process.env.PUBLIC_URL}/static/images/logo.png`} 
         toggleDrawer={handleDrawerToggle}
         toogleNotifications={handleNotificationToggle}
-        toggleFullscreen={handleFullscreenToggle}
+       // toggleFullscreen={handleFullscreenToggle}
       />
       <div className={classNames(classes.panel, "theme-dark")}>
         <Sidebar
